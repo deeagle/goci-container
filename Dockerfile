@@ -1,4 +1,4 @@
-FROM alpine:3
+FROM golang:alpine
 LABEL maintainer="deeagle <code@deeagle.de>"
 
 WORKDIR /app
