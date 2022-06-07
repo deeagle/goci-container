@@ -14,12 +14,18 @@ Installed tools are:
 
 ## Usage
 
-You can check your xml against:
+You can build your application in CI step via:
 
-- `go clean -cache`
-- `CGO_ENABLED=1 go build`
-- `go mod download`
-- `go build -o <app-name>`
+```yml
+# e.g. drone.io as CI
+- name: build
+  image: docdee/goci
+  commands:
+    - go clean -cache
+    - CGO_ENABLED=1 go build
+    - go mod download
+    - go build -o <app-name>
+```
 
 ## Weblinks
 
