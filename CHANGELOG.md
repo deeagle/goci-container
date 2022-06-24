@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+## [1.0.2](https://github.com/deeagle/goci-container/compare/v1.0.1...v1.0.2) (2022-06-24)
+
+
+### Bug Fixes
+
+* **dockerfile:** update container infos ([adf0d95](https://github.com/deeagle/goci-container/commit/adf0d9578a443771fd25cf424284acfd7e535565))
+
 ## [1.0.1](https://github.com/deeagle/goci-container/compare/v1.0.0...v1.0.1) (2022-05-31)
 
 
