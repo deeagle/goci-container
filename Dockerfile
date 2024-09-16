@@ -1,4 +1,4 @@
-FROM golang:alpine
+FROM golang:1.23-alpine
 LABEL org.opencontainers.image.authors="Martin Kock <code@deeagle.de>" \
       org.opencontainers.image.url="https://github.com/deeagle/goci-container" \
       org.opencontainers.image.title="GOlang CI tools." \
