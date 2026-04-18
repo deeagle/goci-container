@@ -22,10 +22,10 @@ jobs:
       - name: Setup Nodejs
         uses: actions/setup-node@v3
         with:
-          node-version: 20
+          node-version: 24
 
       - name: Install dependencies
-        run: npm install @semantic-release/changelog @semantic-release/git @semantic-release/changelog @semantic-release/commit-analyzer @semantic-release/exec @semantic-release/git semantic-release/release-notes-generator
+        run: npm install @semantic-release/changelog @semantic-release/git @semantic-release/changelog @semantic-release/commit-analyzer @semantic-release/exec @semantic-release/git semantic-release/release-notes-generator conventional-changelog-conventionalcommits
 
       - name: Release
         run: npx semantic-release
