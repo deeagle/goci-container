@@ -1,5 +1,17 @@
 # Semantic Versioning Changelog
 
+## [1.0.3](https://github.com/deeagle/goci-container/compare/v1.0.2...v1.0.3) (2026-04-18)
+
+### Miscellaneous Chores
+
+* **git:** ignore jetbrains ide ([b2953ce](https://github.com/deeagle/goci-container/commit/b2953cef8a1efb7fe5c7cc5806013e6539130eb8))
+* **go:** update go to v1.26 ([49bf5b1](https://github.com/deeagle/goci-container/commit/49bf5b1b89420f1083bce80718dc876d957920f1))
+
+### Build System
+
+* **git:** add gitignore ([dc21004](https://github.com/deeagle/goci-container/commit/dc210048d615ef09804c8041bea7f00386f02c77))
+* set versioned base container ([b133e67](https://github.com/deeagle/goci-container/commit/b133e6735bb57ae7901074a903c1c86b5b6d58c0))
+
 ## [1.0.2](https://github.com/deeagle/goci-container/compare/v1.0.1...v1.0.2) (2022-06-24)
 
 
